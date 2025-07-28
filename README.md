@@ -125,6 +125,7 @@ You will also need to configure DSPy with an LLM (a local model like ollama or t
 You can start exploring the basis of the solution in the following notebooks:
 
 * `pragmaticqa.ipynb` contains code demonstrating how to load the conversations from the jsonl files 
+* `embedder.ipynb` shows how to encode HTML files with a vector embedding and store them into a FAISS-based index which can be queried (https://github.com/facebookresearch/faiss). 
 * `rag.ipynb` shows how to perform basic RAG (Retrieval Augmented Generation) using DSPy over the sources in a given topic to answer questions.
 * `semanticF1.ipynb` demonstrates how to evaluate the content of an answer with respect to a gold answer in terms of Precision, Recall and F1 of "conveyed information".
 
